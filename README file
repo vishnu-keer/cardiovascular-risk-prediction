@@ -1,0 +1,42 @@
+#  Cardiovascular Disease Prediction
+
+## Overview
+This project predicts cardiovascular disease using machine learning models.
+
+##  Dataset
+- File: cardio_train.csv
+- Separator: ;
+- Target: cardio (0 = No disease, 1 = Disease)
+
+##  Features
+- Age (converted from days to years)
+- Blood Pressure (ap_hi, ap_lo)
+- Cholesterol
+- Other health attributes
+
+## Workflow
+1. Data loading
+2. Preprocessing
+3. Feature scaling
+4. Model training
+5. Evaluation
+
+##  Models Used
+- Logistic Regression
+- Random Forest
+- XGBoost
+
+##  Evaluation
+- Accuracy Score
+- Confusion Matrix
+
+##  How to Run
+pip install -r requirements.txt  
+python train_model.py
+
+##  Tech Stack
+Python, Pandas, Scikit-learn, XGBoost
+
+##  Future Work
+- Improve accuracy
+- Deploy using Streamlit
